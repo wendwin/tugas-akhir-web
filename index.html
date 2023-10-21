@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- mycss -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/home/jumbotron/logo.png" alt="Travel-logo" width="100">
+        </a>
+        <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2 ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item mx-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Honeymoon Packages</a></li>
+                <li><a class="dropdown-item" href="#">Tours Packages</a></li>
+                <li><a class="dropdown-item" href="#">Musical Events</a></li>
+                <li><a class="dropdown-item" href="#">Build Package</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Upcomming Packages</a>
+            </li>
+          </ul>
+            <button class="button-primary " type="submit">Get in Touch</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- hero -->
+    <div class="hero vh-100">
+      <div class="hero-content container h-100 d-flex align-items-center">
+        <div class="row">
+          <div class="col">
+            <img src="img/home/jumbotron/vector.png" alt="">
+            <h1 class="mb-4 mt-2 lh-sm">No matter where you’re going to, we’ll take you there</h1>
+            <div class="box-blur">
+              <ul class="nav justify-content-center">
+                <li class="nav-item mx-2 ">
+                  <a class="nav-link text-white" aria-current="page" href="#">Travel to?</a>
+                </li>
+                <li class="nav-item mx-2 dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Travel Type
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Honeymoon Packages</a></li>
+                    <li><a class="dropdown-item" href="#">Tours Packages</a></li>
+                    <li><a class="dropdown-item" href="#">Musical Events</a></li>
+                    <li><a class="dropdown-item" href="#">Build Package</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-2 dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Duration
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Honeymoon Packages</a></li>
+                    <li><a class="dropdown-item" href="#">Tours Packages</a></li>
+                    <li><a class="dropdown-item" href="#">Musical Events</a></li>
+                    <li><a class="dropdown-item" href="#">Build Package</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="hero-people gap-3 mt-4">
+              <div>
+                <img src="/img/home/jumbotron/Group 81.png" alt="">
+              </div>
+                <p class="text-white mt-2">2,500 people booked Tommorowland Event in last 24 hours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- hero -->
+  
+  <!-- sponsorship -->
+  <div class="sponsor py-5 px-4 bg-white">
+      <div class="container">
+        <ul class="d-flex flex-wrap justify-content-evenly align-items-center gap-3">
+          <li><img src="/img/home/sponsor/fly-emirates.png" alt="" width="100"></li>
+          <li><img src="/img/home/sponsor/trivago.png" alt="" width="100"></li>
+          <li><img src="/img/home/sponsor/airbnb.png" alt="" width="100"></li>
+          <li><img src="/img/home/sponsor/turkish-airlines.png" alt="" width="100"></li>
+          <li><img src="/img/home/sponsor/swiss.png" alt="" width="100"></li>
+        </ul>
+      </div>
+    </div>
+  <!-- sponsorship -->
+
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
